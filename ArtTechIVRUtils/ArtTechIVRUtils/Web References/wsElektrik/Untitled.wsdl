@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://veri.com/" xmlns:ns0="http://tempuri.org/" name="Untitled" targetNamespace="http://veri.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="GetAboneEndeks">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="tesisatNo" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAboneEndeksResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="GetAboneEndeksResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="faturaHesapla">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="tesisatNo" type="xs:int" />
+            <xs:element name="endex1" type="xs:double" />
+            <xs:element name="endex2" type="xs:double" />
+            <xs:element name="endex3" type="xs:double" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="faturaHesaplaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="faturaHesaplaResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="faturaOlustur">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="tesisatNo" type="xs:int" />
+            <xs:element name="endex1" type="xs:double" />
+            <xs:element name="endex2" type="xs:double" />
+            <xs:element name="endex3" type="xs:double" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="faturaOlusturResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="faturaOlusturResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAboneBorc">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="tesisatNo" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAboneBorcResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="getAboneBorcResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="faturaOlusturSoapIn">
+    <wsdl:part name="parameters" element="ns0:faturaOlustur" />
+  </wsdl:message>
+  <wsdl:message name="faturaOlusturSoapOut">
+    <wsdl:part name="parameters" element="ns0:faturaOlusturResponse" />
+  </wsdl:message>
+  <wsdl:message name="faturaHesaplaSoapIn">
+    <wsdl:part name="parameters" element="ns0:faturaHesapla" />
+  </wsdl:message>
+  <wsdl:message name="faturaHesaplaSoapOut">
+    <wsdl:part name="parameters" element="ns0:faturaHesaplaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAboneBorcSoapIn">
+    <wsdl:part name="parameters" element="ns0:getAboneBorc" />
+  </wsdl:message>
+  <wsdl:message name="getAboneBorcSoapOut">
+    <wsdl:part name="parameters" element="ns0:getAboneBorcResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAboneEndeksSoapIn">
+    <wsdl:part name="parameters" element="ns0:GetAboneEndeks" />
+  </wsdl:message>
+  <wsdl:message name="GetAboneEndeksSoapOut">
+    <wsdl:part name="parameters" element="ns0:GetAboneEndeksResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="faturaOlustur">
+      <wsdl:input message="tns:faturaOlusturSoapIn" />
+      <wsdl:output message="tns:faturaOlusturSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="faturaHesapla">
+      <wsdl:input message="tns:faturaHesaplaSoapIn" />
+      <wsdl:output message="tns:faturaHesaplaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAboneBorc">
+      <wsdl:input message="tns:getAboneBorcSoapIn" />
+      <wsdl:output message="tns:getAboneBorcSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAboneEndeks">
+      <wsdl:input message="tns:GetAboneEndeksSoapIn" />
+      <wsdl:output message="tns:GetAboneEndeksSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ivrserviceSoapBinding" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="faturaOlustur">
+      <soap:operation soapAction="/Business/SOAP/Services/ElectricIvr.serviceagent/Service1SoapEndpoint1/faturaOlustur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="faturaHesapla">
+      <soap:operation soapAction="/Business/SOAP/Services/ElectricIvr.serviceagent/Service1SoapEndpoint1/faturaHesapla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAboneBorc">
+      <soap:operation soapAction="/Business/SOAP/Services/ElectricIvr.serviceagent/Service1SoapEndpoint1/getAboneBorc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAboneEndeks">
+      <soap:operation soapAction="/Business/SOAP/Services/ElectricIvr.serviceagent/Service1SoapEndpoint1/GetAboneEndeks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ElectricIvr.serviceagent">
+    <wsdl:port name="ivrserviceSoap" binding="tns:ivrserviceSoapBinding">
+      <soap:address location="http://esbserver.aksa.com.tr:7055/Service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

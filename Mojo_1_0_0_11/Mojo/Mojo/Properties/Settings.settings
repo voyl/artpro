@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mojo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Outlook" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="connStr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User ID=arttech;Password=arttech12;Initial Catalog=cms_collect;Data Source=172.20.7.59</Value>
+    </Setting>
+    <Setting Name="ServerId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AVAYA#ACM#CSTA#ARTAES</Value>
+    </Setting>
+    <Setting Name="LoginId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">selvi</Value>
+    </Setting>
+    <Setting Name="Passwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">selvi12</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

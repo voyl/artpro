@@ -1,0 +1,1 @@
+The Adobe PDF document "TeleCommuter.pdf" contained in the one level above this document (README.txt) in the WinZIP file and in the unzipped directory tree contains complete configuration and use information for the Device Media and Call Control TeleCommuter Sample Application. Please refer to it for guidance in regard to using this application.

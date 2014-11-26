@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script language="javascript" src="config.js"></script>
+
+</head>
+<body>
+
+<script>
+    function SendCall2CRM() {
+        alert('here');
+        //popup or load value into a frame
+        var incomingNum = "12345678901728394"; //getElementValue("display") ;
+        //AppendCallLog(incomingNum);
+
+        incomingNum = incomingNum.substr(incomingNum.length - 10);
+
+        $.ajax({
+            type: "POST",
+            url: wsURL,
+            data: "{'telno':'123456787646464'}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (msg) {
+                alert(msg.d);
+            },
+            error: function (e) {
+                alert("Unavailable"+e);
+            }
+        });
+
+    }
+   
+    SendCall2CRM();
+
+</script>   
+</body>
+</html>

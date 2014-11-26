@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mojo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AVAYA#MAGIX#CSTA#MERLIN-CTI</Value>
+    </Setting>
+    <Setting Name="LoginId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">merlin</Value>
+    </Setting>
+    <Setting Name="Passwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">diamond</Value>
+    </Setting>
+    <Setting Name="Outlook" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">true</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

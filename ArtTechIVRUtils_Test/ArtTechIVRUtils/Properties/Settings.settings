@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ArtTechIVRUtils.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ArtTechIVRUtils_ws1_GasIvr_serviceagent" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://esbserver.aksa.com.tr:7057/GazIvrWebService.asmx</Value>
+    </Setting>
+    <Setting Name="ArtTechIVRUtils_wsElektrik_ElectricIvr_serviceagent" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://esbserver.aksa.com.tr:7055/Service1.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

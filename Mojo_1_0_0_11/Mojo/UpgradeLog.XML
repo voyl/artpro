@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Mojo">
+</Property><Property Name="Solution File" Value="D:\Projeler\Mojo_1_0_0_11\Mojo\Mojo.sln">
+</Property><Property Name="Date" Value="02 Şubat 2014 Pazar">
+</Property><Property Name="Time" Value="15:30">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Mojo.sln" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo.sln">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Mojo.csproj" Description="Project file successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Mojo.csproj">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Mojo.csproj.user" Description="Project user file successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Mojo.csproj.user">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\csta.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\csta.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\frmMojoMain.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\frmMojoMain.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\frmMojoMain.Designer.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\frmMojoMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Program.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Program.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Settings.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Settings.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\tsapi.cs" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\tsapi.cs">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\app.config" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\app.config">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Mojo_TemporaryKey.pfx" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Mojo_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Properties\Settings.settings" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\dclogo.ico" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\dclogo.ico">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-0.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-0.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-1.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-1.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-2.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-2.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-3.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-3.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-4.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-4.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-5.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-5.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-6.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-6.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-7.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-7.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-8.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-8.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Dtmf-9.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Dtmf-9.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\ring.wav" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\ring.wav">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\frmMojoMain.resx" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\frmMojoMain.resx">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Properties\Resources.resx" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Properties\app.manifest" Description="File successfully backed up as D:\Projeler\Mojo_1_0_0_11\Mojo\Backup\Mojo\Properties\app.manifest">
+</Event><Event ErrorLevel="1" Project="Mojo" Source="Mojo\Mojo.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Mojo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Mojo" Source="Mojo\Mojo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Mojo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Mojo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Mojo" Source="Mojo\Mojo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

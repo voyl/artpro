@@ -1,0 +1,6 @@
+C:\Users\ArtPro\Desktop\DMCC_C#_TeleCommuter_Sample_Code\bin\Release\TeleCommuter.exe.config
+C:\Users\ArtPro\Desktop\DMCC_C#_TeleCommuter_Sample_Code\bin\Release\TeleCommuter.exe
+C:\Users\ArtPro\Desktop\DMCC_C#_TeleCommuter_Sample_Code\bin\Release\TeleCommuter.pdb
+C:\Users\ArtPro\Desktop\DMCC_C#_TeleCommuter_Sample_Code\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ArtPro\Desktop\DMCC_C#_TeleCommuter_Sample_Code\obj\Release\TeleCommuter.exe
+C:\Users\ArtPro\Desktop\DMCC_C#_TeleCommuter_Sample_Code\obj\Release\TeleCommuter.pdb

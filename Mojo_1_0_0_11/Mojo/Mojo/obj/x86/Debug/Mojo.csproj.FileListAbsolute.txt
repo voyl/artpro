@@ -1,0 +1,4 @@
+D:\Projeler\Mojo_1_0_0_11\Mojo\Mojo\obj\x86\Debug\Mojo.csproj.ResolveComReference.cache
+D:\Projeler\Mojo_1_0_0_11\Mojo\Mojo\obj\x86\Debug\Mojo.frmMojoMain.resources
+D:\Projeler\Mojo_1_0_0_11\Mojo\Mojo\obj\x86\Debug\Mojo.Properties.Resources.resources
+D:\Projeler\Mojo_1_0_0_11\Mojo\Mojo\obj\x86\Debug\Mojo.csproj.GenerateResource.Cache

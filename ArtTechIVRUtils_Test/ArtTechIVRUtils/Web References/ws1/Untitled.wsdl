@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://tempuri.org/" name="Untitled" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="AboneSonDurum">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AboneNo" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AboneSonDurumResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AboneSonDurumResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FaturaBilgiAbone">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AboneNo" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FaturaBilgiAboneResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FaturaBilgiAboneResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FaturaBilgiTCkimlik">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TCkimlik" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FaturaBilgiTCkimlikResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FaturaBilgiTCkimlikResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FaturaBilgiTelefon">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Telefon" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FaturaBilgiTelefonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FaturaBilgiTelefonResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SayOkGunuAboneNo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AboneNo" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SayOkGunuAboneNoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SayOkGunuAboneNoResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SayOkGunuTCNo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TCkimlik" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SayOkGunuTCNoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SayOkGunuTCNoResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmCagriBulTelefon">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Telefon" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmCagriBulTelefonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="crmCagriBulTelefonResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmMusteriBulAboneNo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AboneNo" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmMusteriBulAboneNoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="crmMusteriBulAboneNoResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmMusteriBulTCkimlik">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TCkimlik" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmMusteriBulTCkimlikResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="crmMusteriBulTCkimlikResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmMusteriBulTelefon">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Telefon" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="crmMusteriBulTelefonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="crmMusteriBulTelefonResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="AboneSonDurumSoapIn">
+    <wsdl:part name="parameters" element="tns:AboneSonDurum" />
+  </wsdl:message>
+  <wsdl:message name="AboneSonDurumSoapOut">
+    <wsdl:part name="parameters" element="tns:AboneSonDurumResponse" />
+  </wsdl:message>
+  <wsdl:message name="FaturaBilgiTelefonSoapIn">
+    <wsdl:part name="parameters" element="tns:FaturaBilgiTelefon" />
+  </wsdl:message>
+  <wsdl:message name="FaturaBilgiTelefonSoapOut">
+    <wsdl:part name="parameters" element="tns:FaturaBilgiTelefonResponse" />
+  </wsdl:message>
+  <wsdl:message name="crmMusteriBulTelefonSoapIn">
+    <wsdl:part name="parameters" element="tns:crmMusteriBulTelefon" />
+  </wsdl:message>
+  <wsdl:message name="crmMusteriBulTelefonSoapOut">
+    <wsdl:part name="parameters" element="tns:crmMusteriBulTelefonResponse" />
+  </wsdl:message>
+  <wsdl:message name="crmCagriBulTelefonSoapIn">
+    <wsdl:part name="parameters" element="tns:crmCagriBulTelefon" />
+  </wsdl:message>
+  <wsdl:message name="crmCagriBulTelefonSoapOut">
+    <wsdl:part name="parameters" element="tns:crmCagriBulTelefonResponse" />
+  </wsdl:message>
+  <wsdl:message name="SayOkGunuAboneNoSoapIn">
+    <wsdl:part name="parameters" element="tns:SayOkGunuAboneNo" />
+  </wsdl:message>
+  <wsdl:message name="SayOkGunuAboneNoSoapOut">
+    <wsdl:part name="parameters" element="tns:SayOkGunuAboneNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="crmMusteriBulAboneNoSoapIn">
+    <wsdl:part name="parameters" element="tns:crmMusteriBulAboneNo" />
+  </wsdl:message>
+  <wsdl:message name="crmMusteriBulAboneNoSoapOut">
+    <wsdl:part name="parameters" element="tns:crmMusteriBulAboneNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SayOkGunuTCNoSoapIn">
+    <wsdl:part name="parameters" element="tns:SayOkGunuTCNo" />
+  </wsdl:message>
+  <wsdl:message name="SayOkGunuTCNoSoapOut">
+    <wsdl:part name="parameters" element="tns:SayOkGunuTCNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="FaturaBilgiAboneSoapIn">
+    <wsdl:part name="parameters" element="tns:FaturaBilgiAbone" />
+  </wsdl:message>
+  <wsdl:message name="FaturaBilgiAboneSoapOut">
+    <wsdl:part name="parameters" element="tns:FaturaBilgiAboneResponse" />
+  </wsdl:message>
+  <wsdl:message name="crmMusteriBulTCkimlikSoapIn">
+    <wsdl:part name="parameters" element="tns:crmMusteriBulTCkimlik" />
+  </wsdl:message>
+  <wsdl:message name="crmMusteriBulTCkimlikSoapOut">
+    <wsdl:part name="parameters" element="tns:crmMusteriBulTCkimlikResponse" />
+  </wsdl:message>
+  <wsdl:message name="FaturaBilgiTCkimlikSoapIn">
+    <wsdl:part name="parameters" element="tns:FaturaBilgiTCkimlik" />
+  </wsdl:message>
+  <wsdl:message name="FaturaBilgiTCkimlikSoapOut">
+    <wsdl:part name="parameters" element="tns:FaturaBilgiTCkimlikResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GazIvrWebServiceSoap">
+    <wsdl:operation name="AboneSonDurum">
+      <wsdl:input message="tns:AboneSonDurumSoapIn" />
+      <wsdl:output message="tns:AboneSonDurumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FaturaBilgiTelefon">
+      <wsdl:input message="tns:FaturaBilgiTelefonSoapIn" />
+      <wsdl:output message="tns:FaturaBilgiTelefonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="crmMusteriBulTelefon">
+      <wsdl:input message="tns:crmMusteriBulTelefonSoapIn" />
+      <wsdl:output message="tns:crmMusteriBulTelefonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="crmCagriBulTelefon">
+      <wsdl:input message="tns:crmCagriBulTelefonSoapIn" />
+      <wsdl:output message="tns:crmCagriBulTelefonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SayOkGunuAboneNo">
+      <wsdl:input message="tns:SayOkGunuAboneNoSoapIn" />
+      <wsdl:output message="tns:SayOkGunuAboneNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="crmMusteriBulAboneNo">
+      <wsdl:input message="tns:crmMusteriBulAboneNoSoapIn" />
+      <wsdl:output message="tns:crmMusteriBulAboneNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SayOkGunuTCNo">
+      <wsdl:input message="tns:SayOkGunuTCNoSoapIn" />
+      <wsdl:output message="tns:SayOkGunuTCNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FaturaBilgiAbone">
+      <wsdl:input message="tns:FaturaBilgiAboneSoapIn" />
+      <wsdl:output message="tns:FaturaBilgiAboneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="crmMusteriBulTCkimlik">
+      <wsdl:input message="tns:crmMusteriBulTCkimlikSoapIn" />
+      <wsdl:output message="tns:crmMusteriBulTCkimlikSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FaturaBilgiTCkimlik">
+      <wsdl:input message="tns:FaturaBilgiTCkimlikSoapIn" />
+      <wsdl:output message="tns:FaturaBilgiTCkimlikSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GazIvrWebServiceSoapBinding" type="tns:GazIvrWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AboneSonDurum">
+      <soap:operation soapAction="http://tempuri.org/AboneSonDurum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FaturaBilgiTelefon">
+      <soap:operation soapAction="http://tempuri.org/FaturaBilgiTelefon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="crmMusteriBulTelefon">
+      <soap:operation soapAction="http://tempuri.org/crmMusteriBulTelefon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="crmCagriBulTelefon">
+      <soap:operation soapAction="http://tempuri.org/crmCagriBulTelefon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SayOkGunuAboneNo">
+      <soap:operation soapAction="http://tempuri.org/SayOkGunuAboneNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="crmMusteriBulAboneNo">
+      <soap:operation soapAction="http://tempuri.org/crmMusteriBulAboneNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SayOkGunuTCNo">
+      <soap:operation soapAction="http://tempuri.org/SayOkGunuTCNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FaturaBilgiAbone">
+      <soap:operation soapAction="http://tempuri.org/FaturaBilgiAbone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="crmMusteriBulTCkimlik">
+      <soap:operation soapAction="http://tempuri.org/crmMusteriBulTCkimlik" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FaturaBilgiTCkimlik">
+      <soap:operation soapAction="http://tempuri.org/FaturaBilgiTCkimlik" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GasIvr.serviceagent">
+    <wsdl:port name="GazIvrWebServiceSoap" binding="tns:GazIvrWebServiceSoapBinding">
+      <soap:address location="http://esbserver.aksa.com.tr:7057/GazIvrWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

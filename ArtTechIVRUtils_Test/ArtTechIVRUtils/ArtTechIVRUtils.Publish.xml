@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\cellwe\Desktop\AksaUtils" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="AgentHistory.aspx" publishTime="04/25/2014 13:07:30" />
+    <file relUrl="Utils.asmx" publishTime="12/26/2013 07:04:28" />
+    <file relUrl="bin/ArtTechIVRUtils.pdb" publishTime="11/06/2014 13:45:11" />
+    <file relUrl="Web.config" publishTime="01/07/2014 14:07:54" />
+    <file relUrl="AgentStats.aspx" publishTime="11/01/2014 16:11:43" />
+    <file relUrl="AksaService.asmx" publishTime="09/29/2014 09:37:19" />
+    <file relUrl="bin/ArtTechIVRUtils.dll" publishTime="11/06/2014 13:45:11" />
+  </publishProfile>
+</publishData>
