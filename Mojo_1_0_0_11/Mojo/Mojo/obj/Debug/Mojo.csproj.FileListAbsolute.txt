@@ -22,3 +22,6 @@ C:\Users\ArtPro\Desktop\omer_dosyalar\Mojo_1_0_0_11\Mojo\Mojo\bin\Debug\Mojo.exe
 C:\Users\ArtPro\Desktop\omer_dosyalar\Mojo_1_0_0_11\Mojo\Mojo\obj\Debug\Mojo.csproj.ResolveComReference.cache
 C:\Users\ArtPro\Desktop\omer_dosyalar\Mojo_1_0_0_11\Mojo\Mojo\obj\Debug\Mojo.exe
 C:\Users\ArtPro\Desktop\omer_dosyalar\Mojo_1_0_0_11\Mojo\Mojo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ArtPro\Documents\GitHub\artpro\Mojo_1_0_0_11\Mojo\Mojo\bin\Debug\Mojo.exe.config
+C:\Users\ArtPro\Documents\GitHub\artpro\Mojo_1_0_0_11\Mojo\Mojo\obj\Debug\Mojo.csproj.ResolveComReference.cache
+C:\Users\ArtPro\Documents\GitHub\artpro\Mojo_1_0_0_11\Mojo\Mojo\obj\Debug\Mojo.exe

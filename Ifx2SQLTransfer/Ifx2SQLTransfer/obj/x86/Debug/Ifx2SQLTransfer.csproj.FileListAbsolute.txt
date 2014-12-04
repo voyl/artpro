@@ -17,3 +17,5 @@ C:\Users\ArtPro\Desktop\omer_dosyalar\omer_dosyalar\Ifx2SQLTransfer\Ifx2SQLTrans
 C:\Users\ArtPro\Desktop\omer_dosyalar\omer_dosyalar\Ifx2SQLTransfer\Ifx2SQLTransfer\obj\x86\Debug\CallHistory.pdb
 C:\Users\ArtPro\Desktop\omer_dosyalar\Ifx2SQLTransfer\Ifx2SQLTransfer\obj\x86\Debug\CallHistory.exe
 C:\Users\ArtPro\Desktop\omer_dosyalar\Ifx2SQLTransfer\Ifx2SQLTransfer\obj\x86\Debug\CallHistory.pdb
+C:\Users\ArtPro\Documents\GitHub\artpro\Ifx2SQLTransfer\Ifx2SQLTransfer\obj\x86\Debug\CallHistory.exe
+C:\Users\ArtPro\Documents\GitHub\artpro\Ifx2SQLTransfer\Ifx2SQLTransfer\obj\x86\Debug\CallHistory.pdb
